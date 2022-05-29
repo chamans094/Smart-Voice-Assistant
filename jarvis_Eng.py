@@ -33,7 +33,7 @@ def playAlarmSound():
 
 # Function for weather...
 def weather(city_name):
-	api_key="1e1688c0636223e2671af0c6859def8f"
+	api_key="your open weather key"
 	base_url="https://api.openweathermap.org/data/2.5/weather?"
 	complete_url = base_url + "appid=" + api_key + "&q=" + city_name
 	response = requests.get(complete_url)
